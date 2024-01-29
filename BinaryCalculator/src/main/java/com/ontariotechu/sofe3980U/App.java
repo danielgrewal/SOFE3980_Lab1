@@ -25,10 +25,10 @@ public class App
 		Binary sum= Binary.add(binary1,binary2);
 		System.out.println( "Their summation is "+sum.getValue());
 		Binary or= Binary.or(binary1,binary2);
-		// System.out.println( "Their logical OR is "+or.getValue());
-		// Binary and= Binary.and(binary1,binary2);
-		// System.out.println( "Their logical AND is "+and.getValue());
-		// Binary multiply= Binary.multiply(binary1,binary2);
-		// System.out.println( "Their multiplication is "+multiply.getValue());
+		System.out.println( "Their logical OR is "+or.getValue());
+		Binary and= Binary.and(binary1,binary2);
+		System.out.println( "Their logical AND is "+and.getValue());
+		Binary multiply= Binary.multiply(binary1,binary2);
+		System.out.println( "Their multiplication is "+multiply.getValue());
     }
 }
